@@ -22,7 +22,7 @@ import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.example.android.dagger.MyApplication
 import com.example.android.dagger.login.LoginActivity
-import com.lucasors.dagger2sample.R
+import com.lucasorso.dagger2sample.R
 
 class SettingsActivity : AppCompatActivity() {
 

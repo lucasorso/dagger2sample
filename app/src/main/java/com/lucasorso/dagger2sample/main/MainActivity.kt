@@ -25,7 +25,7 @@ import com.example.android.dagger.MyApplication
 import com.example.android.dagger.login.LoginActivity
 import com.example.android.dagger.registration.RegistrationActivity
 import com.example.android.dagger.settings.SettingsActivity
-import com.lucasors.dagger2sample.R
+import com.lucasorso.dagger2sample.R
 
 class MainActivity : AppCompatActivity() {
 

@@ -1,8 +1,8 @@
-package com.lucasors.dagger2sample.modules
+package com.lucasorso.dagger2sample.modules
 
-import com.lucasors.dagger2sample.data.Car
-import com.lucasors.dagger2sample.data.Info
-import com.lucasors.dagger2sample.data.Motrocycle
+import com.lucasorso.dagger2sample.data.Car
+import com.lucasorso.dagger2sample.data.Info
+import com.lucasorso.dagger2sample.data.Motrocycle
 import dagger.Module
 import dagger.Provides
 

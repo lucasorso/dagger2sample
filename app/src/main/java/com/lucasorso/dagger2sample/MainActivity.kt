@@ -1,13 +1,13 @@
-package com.lucasors.dagger2sample
+package com.lucasorso.dagger2sample
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.lucasors.dagger2sample.comp.DaggerMagicBoxComponent
-import com.lucasors.dagger2sample.data.Car
-import com.lucasors.dagger2sample.data.Info
-import com.lucasors.dagger2sample.data.Motrocycle
-import com.lucasors.dagger2sample.modules.BagModule
-import com.lucasors.dagger2sample.modules.VehicleModule
+import com.lucasorso.dagger2sample.comp.DaggerMagicBoxComponent
+import com.lucasorso.dagger2sample.data.Car
+import com.lucasorso.dagger2sample.data.Info
+import com.lucasorso.dagger2sample.data.Motrocycle
+import com.lucasorso.dagger2sample.modules.BagModule
+import com.lucasorso.dagger2sample.modules.VehicleModule
 import kotlinx.android.synthetic.main.activity_main.*
 import javax.inject.Inject
 

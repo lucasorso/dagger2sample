@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.lucasors.dagger2sample
+package com.lucasorso.dagger2sample
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer

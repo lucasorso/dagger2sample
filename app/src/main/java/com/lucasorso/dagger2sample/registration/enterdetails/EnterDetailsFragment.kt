@@ -28,7 +28,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import com.example.android.dagger.registration.RegistrationActivity
 import com.example.android.dagger.registration.RegistrationViewModel
-import com.lucasors.dagger2sample.R
+import com.lucasorso.dagger2sample.R
 
 class EnterDetailsFragment : Fragment() {
 

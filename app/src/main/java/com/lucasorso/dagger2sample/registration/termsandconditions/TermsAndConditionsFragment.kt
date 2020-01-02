@@ -24,7 +24,7 @@ import android.widget.Button
 import androidx.fragment.app.Fragment
 import com.example.android.dagger.registration.RegistrationActivity
 import com.example.android.dagger.registration.RegistrationViewModel
-import com.lucasors.dagger2sample.R
+import com.lucasorso.dagger2sample.R
 
 class TermsAndConditionsFragment : Fragment() {
 

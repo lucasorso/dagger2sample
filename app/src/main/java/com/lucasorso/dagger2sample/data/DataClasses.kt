@@ -1,6 +1,6 @@
-package com.lucasors.dagger2sample.data
+package com.lucasorso.dagger2sample.data
 
-import com.lucasors.dagger2sample.modules.VehicleModule
+import com.lucasorso.dagger2sample.modules.VehicleModule
 
 class Info(val description: String)
 

@@ -28,7 +28,7 @@ import androidx.lifecycle.Observer
 import com.example.android.dagger.main.MainActivity
 import com.example.android.dagger.MyApplication
 import com.example.android.dagger.registration.RegistrationActivity
-import com.lucasors.dagger2sample.R
+import com.lucasorso.dagger2sample.R
 
 class LoginActivity : AppCompatActivity() {
 

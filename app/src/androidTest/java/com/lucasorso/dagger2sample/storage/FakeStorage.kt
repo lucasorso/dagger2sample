@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.lucasors.dagger2sample.storage
+package com.lucasorso.dagger2sample.storage
 
 import com.example.android.dagger.storage.Storage
 
