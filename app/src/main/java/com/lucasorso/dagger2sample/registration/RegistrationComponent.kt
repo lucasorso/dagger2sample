@@ -3,8 +3,12 @@ package com.lucasorso.dagger2sample.registration
 import com.example.android.dagger.registration.RegistrationActivity
 import com.example.android.dagger.registration.enterdetails.EnterDetailsFragment
 import com.example.android.dagger.registration.termsandconditions.TermsAndConditionsFragment
+import com.lucasorso.dagger2sample.di.ActivityScope
 import dagger.Subcomponent
 
+// Scope annotation é preciso
+// Classes annotated with @ActivityScope will have a unique instance in this Component
+@ActivityScope
 @Subcomponent
 interface RegistrationComponent {
     // Factory to create instances of RegistrationComponent
