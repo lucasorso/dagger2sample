@@ -29,7 +29,7 @@ class EnterDetailsViewModelTest {
     @get:Rule
     var instantExecutorRule = InstantTaskExecutorRule()
 
-    private lateinit var viewModel: EnterDetailsViewModel
+    lateinit var viewModel: EnterDetailsViewModel
 
     @Before
     fun setup() {
