@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.dagger.storage
+package com.lucasorso.dagger2sample.storage
 
 import android.content.Context
 import javax.inject.Inject

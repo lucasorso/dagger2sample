@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.example.android.dagger.settings
+package com.lucasorso.dagger2sample.settings
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
-import com.example.android.dagger.MyApplication
-import com.example.android.dagger.login.LoginActivity
+import com.lucasorso.dagger2sample.MyApplication
+import com.lucasorso.dagger2sample.login.LoginActivity
 import com.lucasorso.dagger2sample.R
 import javax.inject.Inject
 

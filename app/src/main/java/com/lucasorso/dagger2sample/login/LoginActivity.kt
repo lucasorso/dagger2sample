@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.dagger.login
+package com.lucasorso.dagger2sample.login
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -25,9 +25,10 @@ import android.widget.EditText
 import android.widget.TextView
 import androidx.core.widget.doOnTextChanged
 import androidx.lifecycle.Observer
-import com.example.android.dagger.main.MainActivity
-import com.example.android.dagger.MyApplication
-import com.example.android.dagger.registration.RegistrationActivity
+import com.example.android.dagger.login.LoginViewModel
+import com.lucasorso.dagger2sample.main.MainActivity
+import com.lucasorso.dagger2sample.MyApplication
+import com.lucasorso.dagger2sample.registration.RegistrationActivity
 import com.lucasorso.dagger2sample.R
 import javax.inject.Inject
 

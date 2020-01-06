@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.dagger.registration.enterdetails
+package com.lucasorso.dagger2sample.registration.enterdetails
 
 import android.content.Context
 import android.os.Bundle
@@ -27,9 +27,8 @@ import android.widget.TextView
 import androidx.core.widget.doOnTextChanged
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
-import com.example.android.dagger.MyApplication
-import com.example.android.dagger.registration.RegistrationActivity
-import com.example.android.dagger.registration.RegistrationViewModel
+import com.lucasorso.dagger2sample.registration.RegistrationActivity
+import com.lucasorso.dagger2sample.registration.RegistrationViewModel
 import com.lucasorso.dagger2sample.R
 import javax.inject.Inject
 

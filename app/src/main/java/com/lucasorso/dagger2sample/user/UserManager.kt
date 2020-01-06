@@ -14,10 +14,9 @@
  * limitations under the License.
  */
 
-package com.example.android.dagger.user
+package com.lucasorso.dagger2sample.user
 
-import com.example.android.dagger.storage.Storage
-import com.lucasorso.dagger2sample.user.UserComponent
+import com.lucasorso.dagger2sample.storage.Storage
 import javax.inject.Inject
 import javax.inject.Singleton
 

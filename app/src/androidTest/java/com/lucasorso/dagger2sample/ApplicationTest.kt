@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.example.android.dagger
+package com.lucasorso.dagger2sample
 
 import androidx.test.core.app.ActivityScenario
 import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.action.ViewActions.*
 import androidx.test.espresso.assertion.ViewAssertions.matches
 import androidx.test.espresso.matcher.ViewMatchers.*
-import com.example.android.dagger.main.MainActivity
+import com.lucasorso.dagger2sample.main.MainActivity
 import org.junit.Test
 
 class ApplicationTest {

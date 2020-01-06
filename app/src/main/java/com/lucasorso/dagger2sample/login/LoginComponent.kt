@@ -1,6 +1,5 @@
 package com.lucasorso.dagger2sample.login
 
-import com.example.android.dagger.login.LoginActivity
 import com.lucasorso.dagger2sample.di.ActivityScope
 import dagger.Subcomponent
 

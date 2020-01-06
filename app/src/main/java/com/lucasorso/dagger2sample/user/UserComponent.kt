@@ -1,7 +1,7 @@
 package com.lucasorso.dagger2sample.user
 
-import com.example.android.dagger.main.MainActivity
-import com.example.android.dagger.settings.SettingsActivity
+import com.lucasorso.dagger2sample.main.MainActivity
+import com.lucasorso.dagger2sample.settings.SettingsActivity
 import dagger.Subcomponent
 
 @LoggedUserScope

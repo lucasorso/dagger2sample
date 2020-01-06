@@ -18,7 +18,10 @@ package com.example.android.dagger.login
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.example.android.dagger.user.UserManager
+import com.lucasorso.dagger2sample.login.LoginError
+import com.lucasorso.dagger2sample.login.LoginSuccess
+import com.lucasorso.dagger2sample.login.LoginViewState
+import com.lucasorso.dagger2sample.user.UserManager
 import javax.inject.Inject
 
 /**

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.example.android.dagger.main
+package com.lucasorso.dagger2sample.main
 
-import com.example.android.dagger.user.UserDataRepository
+import com.lucasorso.dagger2sample.user.UserDataRepository
 import javax.inject.Inject
 
 /**

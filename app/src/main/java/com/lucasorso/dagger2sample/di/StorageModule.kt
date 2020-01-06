@@ -1,8 +1,7 @@
 package com.lucasorso.dagger2sample.di
 
-import android.content.SharedPreferences
-import com.example.android.dagger.storage.SharedPreferencesStorage
-import com.example.android.dagger.storage.Storage
+import com.lucasorso.dagger2sample.storage.SharedPreferencesStorage
+import com.lucasorso.dagger2sample.storage.Storage
 import dagger.Binds
 import dagger.Module
 

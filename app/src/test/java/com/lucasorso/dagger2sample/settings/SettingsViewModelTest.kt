@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.example.android.dagger.settings
+package com.lucasorso.dagger2sample.settings
 
-import com.example.android.dagger.user.UserDataRepository
-import com.example.android.dagger.user.UserManager
+import com.lucasorso.dagger2sample.user.UserDataRepository
+import com.lucasorso.dagger2sample.user.UserManager
 import org.junit.Before
 import org.junit.Test
 import org.mockito.Mockito.mock

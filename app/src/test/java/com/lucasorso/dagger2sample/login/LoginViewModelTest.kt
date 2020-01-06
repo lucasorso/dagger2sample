@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.example.android.dagger.login
+package com.lucasorso.dagger2sample.login
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
-import com.example.android.dagger.LiveDataTestUtil
-import com.example.android.dagger.user.UserManager
+import com.example.android.dagger.login.LoginViewModel
+import com.lucasorso.dagger2sample.user.UserManager
 import org.junit.Assert.assertEquals
 import org.junit.Before
 import org.junit.Rule

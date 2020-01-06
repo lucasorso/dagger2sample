@@ -1,7 +1,7 @@
 package com.lucasorso.dagger2sample.di
 
 import android.content.Context
-import com.example.android.dagger.user.UserManager
+import com.lucasorso.dagger2sample.user.UserManager
 import com.lucasorso.dagger2sample.login.LoginComponent
 import com.lucasorso.dagger2sample.registration.RegistrationComponent
 import dagger.BindsInstance

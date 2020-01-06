@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.dagger.storage
+package com.lucasorso.dagger2sample.storage
 
 interface Storage {
     fun setString(key: String, value: String)

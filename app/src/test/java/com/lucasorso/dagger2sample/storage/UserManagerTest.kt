@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.example.android.dagger.storage
+package com.lucasorso.dagger2sample.storage
 
-import com.example.android.dagger.user.UserManager
+import com.lucasorso.dagger2sample.user.UserManager
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue

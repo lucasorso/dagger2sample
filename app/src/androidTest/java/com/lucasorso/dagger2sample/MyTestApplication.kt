@@ -14,14 +14,11 @@
  * limitations under the License.
  */
 
-package com.example.android.dagger
+package com.lucasorso.dagger2sample
 
-import com.example.android.dagger.storage.FakeStorage
-import com.example.android.dagger.user.UserManager
+import com.lucasorso.dagger2sample.MyApplication
 
 class MyTestApplication : MyApplication() {
 
-    override val userManager by lazy {
-        UserManager(FakeStorage())
-    }
+
 }

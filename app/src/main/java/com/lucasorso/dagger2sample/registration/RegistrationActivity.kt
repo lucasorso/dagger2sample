@@ -14,17 +14,16 @@
  * limitations under the License.
  */
 
-package com.example.android.dagger.registration
+package com.lucasorso.dagger2sample.registration
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.android.dagger.MyApplication
-import com.example.android.dagger.main.MainActivity
-import com.example.android.dagger.registration.enterdetails.EnterDetailsFragment
-import com.example.android.dagger.registration.termsandconditions.TermsAndConditionsFragment
+import com.lucasorso.dagger2sample.MyApplication
+import com.lucasorso.dagger2sample.main.MainActivity
+import com.lucasorso.dagger2sample.registration.enterdetails.EnterDetailsFragment
+import com.lucasorso.dagger2sample.registration.termsandconditions.TermsAndConditionsFragment
 import com.lucasorso.dagger2sample.R
-import com.lucasorso.dagger2sample.registration.RegistrationComponent
 
 class RegistrationActivity : AppCompatActivity() {
 

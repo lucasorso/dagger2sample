@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.dagger
+package com.lucasorso.dagger2sample
 
 import android.app.Application
 import android.content.Context

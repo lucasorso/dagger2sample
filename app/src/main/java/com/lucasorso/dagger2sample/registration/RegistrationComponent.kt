@@ -1,8 +1,7 @@
 package com.lucasorso.dagger2sample.registration
 
-import com.example.android.dagger.registration.RegistrationActivity
-import com.example.android.dagger.registration.enterdetails.EnterDetailsFragment
-import com.example.android.dagger.registration.termsandconditions.TermsAndConditionsFragment
+import com.lucasorso.dagger2sample.registration.enterdetails.EnterDetailsFragment
+import com.lucasorso.dagger2sample.registration.termsandconditions.TermsAndConditionsFragment
 import com.lucasorso.dagger2sample.di.ActivityScope
 import dagger.Subcomponent
 

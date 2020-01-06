@@ -14,9 +14,8 @@
  * limitations under the License.
  */
 
-package com.example.android.dagger.user
+package com.lucasorso.dagger2sample.user
 
-import com.lucasorso.dagger2sample.user.LoggedUserScope
 import javax.inject.Inject
 import kotlin.random.Random
 
