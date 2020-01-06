@@ -1,7 +1,8 @@
 package com.lucasorso.dagger2sample.di
 
 import android.content.Context
-import com.example.android.dagger.main.MainActivity
+import com.example.android.dagger.user.UserManager
+import com.lucasorso.dagger2sample.login.LoginComponent
 import com.lucasorso.dagger2sample.registration.RegistrationComponent
 import dagger.BindsInstance
 import dagger.Component
@@ -18,8 +19,10 @@ interface AppComponent {
         // With @BindsInstance, the Context passed in will be available in the graph
         fun create(@BindsInstance context: Context): AppComponent
     }
-    // Classes que podem ser injetadas por esse componente.
-    fun inject(activity: MainActivity)
+
+    fun userManager(): UserManager
 
     fun registrationComponent(): RegistrationComponent.Factory
+
+    fun loginComponent(): LoginComponent.Factory
 }

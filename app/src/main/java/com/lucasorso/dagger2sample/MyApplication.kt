@@ -17,8 +17,6 @@
 package com.example.android.dagger
 
 import android.app.Application
-import com.example.android.dagger.storage.SharedPreferencesStorage
-import com.example.android.dagger.user.UserManager
 import com.lucasorso.dagger2sample.di.AppComponent
 import com.lucasorso.dagger2sample.di.DaggerAppComponent
 
@@ -28,9 +26,5 @@ open class MyApplication : Application() {
         // Cria uma instância do AppComponent usando o Factory
         // We pass the applicationContext that will be used as Context in the graph
         DaggerAppComponent.factory().create(applicationContext)
-    }
-
-    open val userManager by lazy {
-        UserManager(SharedPreferencesStorage(this))
     }
 }
