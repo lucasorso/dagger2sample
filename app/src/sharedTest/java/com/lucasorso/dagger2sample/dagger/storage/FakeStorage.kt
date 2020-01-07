@@ -17,8 +17,9 @@
 package com.lucasorso.dagger2sample.dagger.storage
 
 import com.lucasorso.dagger2sample.storage.Storage
+import javax.inject.Inject
 
-class FakeStorage : Storage {
+class FakeStorage @Inject constructor() : Storage {
 
     private val map = mutableMapOf<String, String>()
 

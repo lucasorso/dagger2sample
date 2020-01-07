@@ -16,9 +16,12 @@
 
 package com.lucasorso.dagger2sample
 
-import com.lucasorso.dagger2sample.MyApplication
+import com.lucasorso.dagger2sample.dagger.di.DaggerTestAppComponent
+import com.lucasorso.dagger2sample.di.AppComponent
 
 class MyTestApplication : MyApplication() {
 
-
+    override fun initializeComponent(): AppComponent {
+        return DaggerTestAppComponent.create()
+    }
 }

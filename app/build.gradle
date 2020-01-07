@@ -16,7 +16,8 @@ android {
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+//        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "com.lucasorso.dagger2sample.MyCustomTestRunner"
     }
 
     buildTypes {
@@ -67,8 +68,5 @@ dependencies {
     def dagger_version = "2.25.2"
     implementation "com.google.dagger:dagger:$dagger_version"
     kapt "com.google.dagger:dagger-compiler:$dagger_version"
-
-//    api 'com.google.dagger:dagger-android:2.15'
-//    api 'com.google.dagger:dagger-android-support:2.15'
-//    kapt 'com.google.dagger:dagger-android-processor:2.15'
+    kaptAndroidTest "com.google.dagger:dagger-compiler:$dagger_version"
 }

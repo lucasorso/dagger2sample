@@ -24,9 +24,11 @@ import com.lucasorso.dagger2sample.main.MainActivity
 import com.lucasorso.dagger2sample.registration.enterdetails.EnterDetailsFragment
 import com.lucasorso.dagger2sample.registration.termsandconditions.TermsAndConditionsFragment
 import com.lucasorso.dagger2sample.R
+import javax.inject.Inject
 
 class RegistrationActivity : AppCompatActivity() {
 
+    @Inject
     lateinit var registrationViewModel: RegistrationViewModel
 
     // Stores an instance of RegistrationComponent so that its Fragments can access it
