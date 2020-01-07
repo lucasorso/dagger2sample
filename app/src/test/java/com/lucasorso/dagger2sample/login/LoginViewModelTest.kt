@@ -17,6 +17,7 @@
 package com.lucasorso.dagger2sample.login
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
+import com.lucasorso.dagger2sample.dagger.LiveDataTestUtil
 import com.example.android.dagger.login.LoginViewModel
 import com.lucasorso.dagger2sample.user.UserManager
 import org.junit.Assert.assertEquals

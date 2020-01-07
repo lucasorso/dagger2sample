@@ -14,9 +14,11 @@
  * limitations under the License.
  */
 
-package com.lucasorso.dagger2sample.storage
+package com.lucasorso.dagger2sample.dagger.storage
 
-open class FakeStorage : Storage {
+import com.lucasorso.dagger2sample.storage.Storage
+
+class FakeStorage : Storage {
 
     private val map = mutableMapOf<String, String>()
 

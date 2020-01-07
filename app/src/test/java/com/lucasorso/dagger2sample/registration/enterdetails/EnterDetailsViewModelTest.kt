@@ -17,7 +17,7 @@
 package com.lucasorso.dagger2sample.registration.enterdetails
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
-import com.example.android.dagger.LiveDataTestUtil
+import com.lucasorso.dagger2sample.dagger.LiveDataTestUtil
 import org.junit.Assert.assertTrue
 import org.junit.Before
 import org.junit.Rule

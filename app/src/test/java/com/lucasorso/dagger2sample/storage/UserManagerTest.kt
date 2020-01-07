@@ -16,12 +16,14 @@
 
 package com.lucasorso.dagger2sample.storage
 
+import com.lucasorso.dagger2sample.dagger.storage.FakeStorage
+import com.lucasorso.dagger2sample.user.UserComponent
 import com.lucasorso.dagger2sample.user.UserManager
-import org.junit.Assert.assertEquals
-import org.junit.Assert.assertFalse
-import org.junit.Assert.assertTrue
+import org.junit.Assert.*
 import org.junit.Before
 import org.junit.Test
+import org.mockito.Mockito
+import org.mockito.Mockito.`when` as whenever
 
 class UserManagerTest {
 
@@ -30,8 +32,12 @@ class UserManagerTest {
 
     @Before
     fun setup() {
+        val userComponentFactory = Mockito.mock(UserComponent.Factory::class.java)
+        val userComponent = Mockito.mock(UserComponent::class.java)
+        whenever(userComponentFactory.create()).thenReturn(userComponent)
+
         storage = FakeStorage()
-        userManager = UserManager(storage)
+        userManager = UserManager(storage, userComponentFactory)
     }
 
     @Test
